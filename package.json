@@ -1,8 +1,5 @@
 {
   "private": true,
-  "name": "redux-sandbox",
-  "version": "1.0.0",
-  "description": "",
   "scripts": {
     "clean": "rimraf dist",
     "build:webpack": "cross-env NODE_ENV=production webpack --config webpack.config.prod.js",
@@ -31,5 +28,10 @@
   "dependencies": {
     "react": "^0.14.3",
     "react-dom": "^0.14.3"
+  },
+  "author": "Grigoriy Beziuk <me@gbezyuk.ru> (http://github.com/gbezyuk)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gbezyuk/redux-sandbox.git"
   }
 }
